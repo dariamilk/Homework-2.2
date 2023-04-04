@@ -11,7 +11,7 @@ public class Main {
         Hufflepuff justinFinchFletchley = new Hufflepuff("Джастин Финч-Флетчли", 78, 80, 86, 89, 81);
         Ravenclaw choChang = new Ravenclaw("Чжоу Чанг", 76, 81, 85, 75, 74, 86);
         Ravenclaw padmaPatil = new Ravenclaw("Падма Патил", 84, 78, 83, 79, 70, 72);
-        Ravenclaw marcusBelby = new Ravenclaw("Маркус Белби", 73, 79, 74, 65, 90, 87);
+        Ravenclaw marcusBelby = new Ravenclaw("Маркус Белби", 75, 79, 74, 65, 90, 87);
 
         hermioneGranger.printStudent();
         hermioneGranger.compareStudents(harryPotter);

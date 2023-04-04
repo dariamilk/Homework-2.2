@@ -38,8 +38,8 @@ public class Hufflepuff extends Hogwarts {
                 + ". Честность: " + honesty + ".";
     }
     public void compareStudents (Hufflepuff student) {
-        int sumOfPoints = super.getMagicPower() + super.getTransgressionDistance() + diligence + loyalty + honesty;
-        int studentSumOfPoints = student.getMagicPower() + student.getTransgressionDistance() + student.diligence + student.loyalty + student.honesty;
+        int sumOfPoints = diligence + loyalty + honesty;
+        int studentSumOfPoints = student.diligence + student.loyalty + student.honesty;
         if (sumOfPoints > studentSumOfPoints) {
             System.out.println(super.getName() + " лучший Пуффендуец, чем " + student.getName() + ".");
         } else if (studentSumOfPoints > sumOfPoints) {

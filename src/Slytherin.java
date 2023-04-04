@@ -60,8 +60,8 @@ public class Slytherin extends Hogwarts {
                 + hungerForPower + ".";
     }
     public void compareStudents (Slytherin student) {
-        int sumOfPoints = super.getMagicPower() + super.getTransgressionDistance() + ruse + determination + ambitiousness + smartness + hungerForPower;
-        int studentSumOfPoints = student.getMagicPower() + student.getTransgressionDistance() + student.ruse + student.determination + student.ambitiousness + student.smartness + student.hungerForPower;
+        int sumOfPoints = ruse + determination + ambitiousness + smartness + hungerForPower;
+        int studentSumOfPoints = student.ruse + student.determination + student.ambitiousness + student.smartness + student.hungerForPower;
         if (sumOfPoints > studentSumOfPoints) {
             System.out.println(super.getName() + " лучший Слизеринец, чем " + student.getName() + ".");
         } else if (studentSumOfPoints > sumOfPoints) {

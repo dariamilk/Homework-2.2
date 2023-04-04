@@ -29,13 +29,17 @@ public class Hogwarts {
     public void comparePerBasicAbilities (Hogwarts student) {
         if (magicPower > student.magicPower) {
             System.out.println(name + " обладает большей силой магии, чем " + student.name + ". ");
-        } else {
+        } else if (magicPower < student.magicPower) {
             System.out.println(student.name + " обладает большей силой магии, чем " + name + ". ");
+        } else {
+            System.out.println(student.name + " и " + name + " обладает одинаковой силой магии.");
         }
         if (transgressionDistance > student.transgressionDistance) {
             System.out.println(name + " обладает большим расстоянием трансгрессии, чем " + student.name + ". ");
-        } else {
+        } else if (transgressionDistance < student.transgressionDistance) {
             System.out.println(student.name + " обладает большим расстоянием трансгрессии, чем " + name + ". ");
+        } else {
+            System.out.println(student.name + " и " + name + " обладает одинаковым расстоянием трансгресии.");
         }
     }
     public void printStudent () {
